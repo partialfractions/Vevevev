@@ -8,7 +8,7 @@
       "styling": {}
     },
     "versionFirst": "3.10.5",
-    "uniqCompNum": 13,
+    "uniqCompNum": 14,
     "versionPublish": "3.10.5"
   },
   "pages": {
@@ -51,7 +51,7 @@
                 "showTitle": true,
                 "title": "THE PURPOSE",
                 "showText": true,
-                "text": "Mobirise is based on Bootstrap 3 - most powerful mobile first framework. Use any bootstrap themes with no extra work.",
+                "text": "In integration and advanced math studies, students will come across problems with fractions containing polynomials in the denominator. &nbsp;They can be solved more easily if the fractions are simplified through partial fraction decomposition, which is a process that works backwards based on the concept of adding fractions by obtaining a common denominator.&nbsp;",
                 "showButtons": false,
                 "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
               },
@@ -132,7 +132,7 @@
           "title": "THE BASICS",
           "meta": "By John Smith posted July 30, 2015",
           "text": "<p>Lucy introduces us to integration of rational functions and goes over 3 possible cases of partial fraction decomposition.</p>",
-          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://youtu.be/GB12nvd2Q88\" data-toolbar=\"-mbrBtnMove\">FULL SOLUTION</a>"
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://drive.google.com/file/d/0ByUBaKn7Z8GOUHpGbTZRcUJZQ3M/view?usp=sharing\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">FULL SOLUTION</a>"
         },
         {
           "_styles": {
@@ -181,7 +181,7 @@
             },
             "video": {
               "active": true,
-              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw",
+              "src": "https://youtu.be/34MdsqUXDCs",
               "class": "mbr-figure__img",
               "aspectratio": "16:9",
               "autoplay": false,
@@ -192,6 +192,66 @@
           "title": "FURTHER YOUR KNOWLEDGE",
           "meta": "By John Smith posted July 30, 2015",
           "text": "Jacqueline extends our knowledge by taking on an integration example that uses a complex 4th case of partial fraction decomposition.",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">FULL SOLUTION</a>"
+        },
+        {
+          "_styles": {
+            ".mbr-header__text": {
+              "color": "#ffffff"
+            },
+            ".mbr-header__subtext": {
+              "color": "#ffffff"
+            },
+            ".mbr-article": {
+              "color": "#ffffff"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box5",
+          "_anchor": "msg-box5-d",
+          "_params": {
+            "imageSize": 50,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#595959",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "inverse": false,
+            "showTitle": true,
+            "showMeta": false,
+            "showText": true,
+            "showButtons": true
+          },
+          "media": {
+            "image": {
+              "class": "mbr-figure__img",
+              "width": 1400,
+              "src": "images/iphone.png"
+            },
+            "video": {
+              "active": true,
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw",
+              "class": "mbr-figure__img",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "headerAlign": "left",
+          "title": "RATIONALIZE",
+          "meta": "By John Smith posted July 30, 2015",
+          "text": "<p>Students will often come across an integral with an irrational function (often containing roots). To avoid being stumped, let's rationalize!</p>",
           "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">FULL SOLUTION</a>"
         },
         {
@@ -252,7 +312,7 @@
           "title": "UNDERSTAND AND APPLY",
           "meta": "By John Smith posted July 30, 2015",
           "text": "<p>To apply integration by partial fractions to questions, Julie tackles a word problem and that hones partial fractions as well as integration knowledge from past units.</p>",
-          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">FULL SOLUTION</a>"
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://drive.google.com/file/d/0ByUBaKn7Z8GOS3lYT1lraWs0dGc/view?usp=sharing\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">FULL SOLUTION</a>"
         },
         {
           "_styles": {
@@ -312,7 +372,7 @@
           "title": "EXPAND AND CONNECT",
           "meta": "By John Smith posted July 30, 2015",
           "text": "Finally, Vevina introduces us to ways in technique of integration are used together by solving a problem using both integration by parts and partial fractions.",
-          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://youtu.be/oj8WKRRvVq8\" data-toolbar=\"-mbrBtnMove\">FULL SOLUTION</a>"
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://drive.google.com/file/d/0ByUBaKn7Z8GOT1I0OFBUVTZQc3M/view?usp=sharing\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">FULL SOLUTION</a>"
         }
       ]
     }
