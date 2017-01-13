@@ -8,7 +8,7 @@
       "styling": {}
     },
     "versionFirst": "3.10.5",
-    "uniqCompNum": 9,
+    "uniqCompNum": 13,
     "versionPublish": "3.10.5"
   },
   "pages": {
@@ -23,42 +23,56 @@
       },
       "components": [
         {
-          "_inherit": "header1",
+          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
           "_tags": [
             "Theme"
           ],
-          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
-          "_name": "header4",
-          "_anchor": "header4-4",
+          "_name": "slider",
           "_params": {
-            "parallax": true,
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/full-unsplash-photo-1474377207190-a7d8b3334068-2000x1333.jpg",
-            "bgColor": "#4c6972",
-            "bgColorRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "contentAlign": "center",
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222",
-            "showTitle": true,
-            "showText": true,
-            "showButtons": false,
-            "showArrow": false
+            "autoplay": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "slides": [
+              {
+                "active": true,
+                "image": "@PROJECT_PATH@/assets/images/full-unsplash-photo-1443140570159-279cf334cf24-2000x1502.jpg",
+                "contentAlign": "right",
+                "showTitle": true,
+                "title": "INTEGRATION OF RATIONAL FUNCTIONS BY PARTIAL FRACTIONS",
+                "showText": true,
+                "text": "Scroll down for video tutorials by Lucy, Jacqueline, Julie, and Vevina.&nbsp;",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/full-unsplash-photo-1453733190371-0a9bedd82893-2000x1500.jpg",
+                "contentAlign": "left",
+                "showTitle": true,
+                "title": "THE PURPOSE",
+                "showText": true,
+                "text": "Mobirise is based on Bootstrap 3 - most powerful mobile first framework. Use any bootstrap themes with no extra work.",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/full-unsplash-photo-1477579266593-ccd7841e4f02-2000x1125.jpg",
+                "contentAlign": "center",
+                "showTitle": true,
+                "title": "HONE YOUR SKILLS",
+                "showText": true,
+                "text": "Practice questions curated for you.",
+                "showButtons": true,
+                "buttons": " <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">EXTRA PRACTICE</a>"
+              }
+            ],
+            "fullScreen": true,
+            "bgColor": "#ffffff",
+            "showBullets": true
           },
-          "title": "INTEGRATION OF RATIONAL FUNCTIONS BY PARTIAL FRACTIONS",
-          "text": "Scroll down for video tutorials by Julie, Jacqueline, Lucy, and Vevina.",
-          "buttons": " <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default animated fadeInUp delay\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\"></a>",
-          "_styles": {
-            "H1": {
-              "font-family": "'Roboto', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
-              "font-size": "60px"
-            }
-          }
+          "_anchor": "slider-c",
+          "articleLayout": false
         },
         {
           "_styles": {
@@ -118,7 +132,7 @@
           "title": "THE BASICS",
           "meta": "By John Smith posted July 30, 2015",
           "text": "<p>Lucy introduces us to integration of rational functions and goes over 3 possible cases of partial fraction decomposition.</p>",
-          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://youtu.be/GB12nvd2Q88\" data-toolbar=\"-mbrBtnMove\">LEARN MORE</a>"
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://youtu.be/GB12nvd2Q88\" data-toolbar=\"-mbrBtnMove\">FULL SOLUTION</a>"
         },
         {
           "_styles": {
@@ -177,8 +191,8 @@
           "headerAlign": "left",
           "title": "FURTHER YOUR KNOWLEDGE",
           "meta": "By John Smith posted July 30, 2015",
-          "text": "<p>Online video and Youtube particularly is now more popular than cable television. Mobirise provides a support for YouTube and Vimeo that allow you to liven up your sites.</p>",
-          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">LEARN MORE</a>"
+          "text": "Jacqueline extends our knowledge by taking on an integration example that uses a complex 4th case of partial fraction decomposition.",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">FULL SOLUTION</a>"
         },
         {
           "_styles": {
@@ -238,7 +252,7 @@
           "title": "UNDERSTAND AND APPLY",
           "meta": "By John Smith posted July 30, 2015",
           "text": "<p>To apply integration by partial fractions to questions, Julie tackles a word problem and that hones partial fractions as well as integration knowledge from past units.</p>",
-          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">LEARN MORE</a>"
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">FULL SOLUTION</a>"
         },
         {
           "_styles": {
@@ -287,7 +301,7 @@
             },
             "video": {
               "active": true,
-              "src": "https://youtu.be/oj8WKRRvVq8",
+              "src": "https://youtu.be/Bkgwg79M7D8",
               "class": "mbr-figure__img",
               "aspectratio": "16:9",
               "autoplay": false,
@@ -298,7 +312,7 @@
           "title": "EXPAND AND CONNECT",
           "meta": "By John Smith posted July 30, 2015",
           "text": "Finally, Vevina introduces us to ways in technique of integration are used together by solving a problem using both integration by parts and partial fractions.",
-          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://youtu.be/oj8WKRRvVq8\" data-toolbar=\"-mbrBtnMove\">LEARN MORE</a>"
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://youtu.be/oj8WKRRvVq8\" data-toolbar=\"-mbrBtnMove\">FULL SOLUTION</a>"
         }
       ]
     }
