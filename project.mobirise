@@ -64,7 +64,7 @@
                 "showText": true,
                 "text": "Practice questions curated for you.",
                 "showButtons": true,
-                "buttons": " <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">EXTRA PRACTICE</a>"
+                "buttons": " <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://docs.google.com/drawings/d/14mrfEhyZHnqQmVByOp3srfSpd9ZT5cma-IRbU2d2dB4/edit?usp=sharing\" data-toolbar=\"-mbrBtnMove\">EXTRA PRACTICE</a>"
               }
             ],
             "fullScreen": true,
