@@ -1,0 +1,21 @@
+body{
+        background-color: #f3c1bd;
+      }
+#main {
+    width: auto;
+    height: 100%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    padding: 0px;
+    margin: 0px;
+    white-space: nowrap;
+}
+.mainContainer {
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+}
+.section{
+    width: 100%;
+    display: inline-block;
+}
