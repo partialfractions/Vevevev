@@ -11,7 +11,7 @@ $(document).ready(function() {
 
   // cross-browser wheel delta
   var e = window.event || e;
-  var delta = - 5 * (Math.max(-1, Math.min(1, (e.wheelDelta || -e.detail))));
+  var delta = - 10 * (Math.max(-1, Math.min(1, (e.wheelDelta || -e.detail))));
 
   var pst = $('#main').scrollLeft() + delta;
 
