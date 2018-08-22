@@ -23,6 +23,12 @@ body{
   font-size: 75%;
 }
 
+#lol_why_tho{
+  font-size: 20%;
+  position: relative;
+  left: -1%;
+}
+
 a{
   transition: color 1s;
   color: #ef9a9a;
