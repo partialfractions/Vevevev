@@ -1,0 +1,1603 @@
+{
+  "nodes": {
+    "SitePage /dev-404-page/": {
+      "layout": "index",
+      "jsonName": "dev-404-page.json",
+      "internalComponentName": "ComponentDev404Page",
+      "path": "/dev-404-page/",
+      "component": "/Users/vevinatrinh/Documents/repos/partialfractions.github.io/.cache/dev-404-page.js",
+      "componentChunkName": "component---cache-dev-404-page-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin dev-404-page",
+      "pluginCreatorId": "Plugin dev-404-page",
+      "componentPath": "/Users/vevinatrinh/Documents/repos/partialfractions.github.io/.cache/dev-404-page.js",
+      "id": "SitePage /dev-404-page/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "e2645b830b2eb20449341b6334a4f99c",
+        "description": "Plugin dev-404-page",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin dev-404-page": {
+      "resolve": "/Users/vevinatrinh/Documents/repos/partialfractions.github.io/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "id": "Plugin dev-404-page",
+      "name": "dev-404-page",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/vevinatrinh/Documents/repos/partialfractions.github.io/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "packageJson": {
+        "name": "dev-404-page",
+        "description": "Internal plugin to add a 404 page in development with helpful information",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "699e163addef31455af7f36ca41e63cf",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin component-layout-creator": {
+      "resolve": "/Users/vevinatrinh/Documents/repos/partialfractions.github.io/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
+      "id": "Plugin component-layout-creator",
+      "name": "component-layout-creator",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createLayouts"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/vevinatrinh/Documents/repos/partialfractions.github.io/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
+      "packageJson": {
+        "name": "component-layout-creator",
+        "description": "An internal Gatsby plugin that creates pages from component files in src/layouts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "cfb4d2ca235f0c0b3c26e1c88b113bb0",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin internal-data-bridge": {
+      "resolve": "/Users/vevinatrinh/Documents/repos/partialfractions.github.io/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "id": "Plugin internal-data-bridge",
+      "name": "internal-data-bridge",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/vevinatrinh/Documents/repos/partialfractions.github.io/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "packageJson": {
+        "name": "internal-data-bridge",
+        "description": "An internal Gatsby plugin which creates data nodes from internal data",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "64e1f068a88ac81eaebd637dc42ee380",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin prod-404": {
+      "resolve": "/Users/vevinatrinh/Documents/repos/partialfractions.github.io/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "id": "Plugin prod-404",
+      "name": "prod-404",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/vevinatrinh/Documents/repos/partialfractions.github.io/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "packageJson": {
+        "name": "prod-404",
+        "description": "Internal plugin to detect various flavors of 404 pages and ensure there's a 404.html path created as well to ensure compatability with static hosts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "2be80ea3dd88c703b2856c9c37fcb07e",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin query-runner": {
+      "resolve": "/Users/vevinatrinh/Documents/repos/partialfractions.github.io/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "id": "Plugin query-runner",
+      "name": "query-runner",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage",
+        "onCreateLayout"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/vevinatrinh/Documents/repos/partialfractions.github.io/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "packageJson": {
+        "name": "query-runner",
+        "description": "Internal plugin for running queries",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "b9b98836a1e0bb79b6b122f2ecb821c0",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-source-filesystem": {
+      "resolve": "/Users/vevinatrinh/Documents/repos/partialfractions.github.io/node_modules/gatsby-source-filesystem",
+      "id": "Plugin gatsby-source-filesystem",
+      "name": "gatsby-source-filesystem",
+      "version": "1.5.39",
+      "pluginOptions": {
+        "plugins": [],
+        "name": "src",
+        "path": "/Users/vevinatrinh/Documents/repos/partialfractions.github.io/src/"
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/vevinatrinh/Documents/repos/partialfractions.github.io/node_modules/gatsby-source-filesystem",
+      "packageJson": {
+        "name": "gatsby-source-filesystem",
+        "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
+        "version": "1.5.39",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "better-queue",
+            "version": "^3.8.7"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.1"
+          },
+          {
+            "name": "got",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "md5-file",
+            "version": "^3.1.1"
+          },
+          {
+            "name": "mime",
+            "version": "^1.3.6"
+          },
+          {
+            "name": "pretty-bytes",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "valid-url",
+            "version": "^1.0.9"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.9.250"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "73dec28c3d1016d0fd85d837c7cccfa0",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-transformer-remark": {
+      "resolve": "/Users/vevinatrinh/Documents/repos/partialfractions.github.io/node_modules/gatsby-transformer-remark",
+      "id": "Plugin gatsby-transformer-remark",
+      "name": "gatsby-transformer-remark",
+      "version": "1.7.44",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/vevinatrinh/Documents/repos/partialfractions.github.io/node_modules/gatsby-transformer-remark",
+      "packageJson": {
+        "name": "gatsby-transformer-remark",
+        "description": "Gatsby transformer plugin for Markdown using the Remark library and ecosystem",
+        "version": "1.7.44",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "markdown",
+          "remark"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "graphql-type-json",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "gray-matter",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "hast-util-raw",
+            "version": "^2.0.2"
+          },
+          {
+            "name": "hast-util-to-html",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "mdast-util-to-hast",
+            "version": "^2.4.0"
+          },
+          {
+            "name": "mdast-util-toc",
+            "version": "^2.0.1"
+          },
+          {
+            "name": "remark",
+            "version": "^7.0.1"
+          },
+          {
+            "name": "remark-parse",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "remark-retext",
+            "version": "^3.1.0"
+          },
+          {
+            "name": "remark-stringify",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "retext-english",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "sanitize-html",
+            "version": "^1.14.1"
+          },
+          {
+            "name": "underscore.string",
+            "version": "^3.3.4"
+          },
+          {
+            "name": "unified",
+            "version": "^6.1.5"
+          },
+          {
+            "name": "unist-util-remove-position",
+            "version": "^1.1.1"
+          },
+          {
+            "name": "unist-util-select",
+            "version": "^1.5.0"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.1.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "babel-plugin-transform-object-rest-spread",
+            "version": "^6.20.2"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "20f33bb43fc8aceecfdcd63cb4a09a2b",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-glamor": {
+      "resolve": "/Users/vevinatrinh/Documents/repos/partialfractions.github.io/node_modules/gatsby-plugin-glamor",
+      "id": "Plugin gatsby-plugin-glamor",
+      "name": "gatsby-plugin-glamor",
+      "version": "1.6.13",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "modifyWebpackConfig",
+        "modifyBabelrc"
+      ],
+      "browserAPIs": [
+        "onClientEntry"
+      ],
+      "ssrAPIs": [
+        "replaceRenderer"
+      ],
+      "pluginFilepath": "/Users/vevinatrinh/Documents/repos/partialfractions.github.io/node_modules/gatsby-plugin-glamor",
+      "packageJson": {
+        "name": "gatsby-plugin-glamor",
+        "description": "Gatsby plugin to add support for Glamor",
+        "version": "1.6.13",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "glamor"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "glamor",
+            "version": "^2.20.29"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "3d63cf49fc4f278f774acab8eb90a445",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-typography": {
+      "resolve": "/Users/vevinatrinh/Documents/repos/partialfractions.github.io/node_modules/gatsby-plugin-typography",
+      "id": "Plugin gatsby-plugin-typography",
+      "name": "gatsby-plugin-typography",
+      "version": "1.7.19",
+      "pluginOptions": {
+        "plugins": [],
+        "pathToConfigModule": "src/utils/typography"
+      },
+      "nodeAPIs": [
+        "onPreBootstrap"
+      ],
+      "browserAPIs": [
+        "onClientEntry"
+      ],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/vevinatrinh/Documents/repos/partialfractions.github.io/node_modules/gatsby-plugin-typography",
+      "packageJson": {
+        "name": "gatsby-plugin-typography",
+        "description": "Gatsby plugin to setup server rendering of Typography.js' CSS",
+        "version": "1.7.19",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "typography",
+          "typography.js"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "react-typography",
+            "version": "^0.16.1"
+          },
+          {
+            "name": "typography",
+            "version": "^0.16.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "fedd6c069f0252dbf8b9c8574fa7c3c1",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin default-site-plugin": {
+      "resolve": "/Users/vevinatrinh/Documents/repos/partialfractions.github.io",
+      "id": "Plugin default-site-plugin",
+      "name": "default-site-plugin",
+      "version": "8faa44340222e6b9ea84fe1b711e9d6b",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "createPages"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/vevinatrinh/Documents/repos/partialfractions.github.io",
+      "packageJson": {
+        "name": "gatsby-starter-hello-world",
+        "description": "Gatsby hello world starter",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.9.277"
+          },
+          {
+            "name": "gatsby-link",
+            "version": "^1.6.46"
+          },
+          {
+            "name": "gatsby-plugin-glamor",
+            "version": "^1.6.13"
+          },
+          {
+            "name": "gatsby-plugin-typography",
+            "version": "^1.7.19"
+          },
+          {
+            "name": "gatsby-source-filesystem",
+            "version": "^1.5.39"
+          },
+          {
+            "name": "gatsby-transformer-remark",
+            "version": "^1.7.44"
+          },
+          {
+            "name": "glamorous",
+            "version": "^4.13.1"
+          },
+          {
+            "name": "react-typing-animation",
+            "version": "^1.4.0"
+          },
+          {
+            "name": "typography-theme-fairy-gates",
+            "version": "^0.15.11"
+          },
+          {
+            "name": "typography-theme-kirkham",
+            "version": "^0.16.3"
+          }
+        ],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "73356f37bccf62c0f4a5e069b33e29a6",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-page-creator": {
+      "resolve": "/Users/vevinatrinh/Documents/repos/partialfractions.github.io/node_modules/gatsby-plugin-page-creator",
+      "id": "Plugin gatsby-plugin-page-creator",
+      "name": "gatsby-plugin-page-creator",
+      "version": "1.0.1",
+      "pluginOptions": {
+        "plugins": [],
+        "path": "/Users/vevinatrinh/Documents/repos/partialfractions.github.io/src/pages",
+        "pathCheck": false
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/vevinatrinh/Documents/repos/partialfractions.github.io/node_modules/gatsby-plugin-page-creator",
+      "packageJson": {
+        "name": "gatsby-plugin-page-creator",
+        "description": "Gatsby plugin that automatically creates pages from React components in specified directories",
+        "version": "1.0.1",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "glob",
+            "version": "^7.1.1"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "parse-filepath",
+            "version": "^1.0.1"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "46b874b87d426b986fdc58f558084241",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Site": {
+      "siteMetadata": {
+        "title": "Pandas Eating Lots"
+      },
+      "port": "8000",
+      "host": "localhost",
+      "pathPrefix": "",
+      "polyfill": true,
+      "buildTime": "2018-09-09T22:31:58.611Z",
+      "id": "Site",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "a86e302e9d0591d9dac137ea9c7987c9",
+        "type": "Site",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "/Users/vevinatrinh/Documents/repos/partialfractions.github.io/src/ absPath of file": {
+      "id": "/Users/vevinatrinh/Documents/repos/partialfractions.github.io/src/ absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "b267a37966308fb2d3424ef83bd18ae4",
+        "type": "Directory",
+        "description": "Directory \"src\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/vevinatrinh/Documents/repos/partialfractions.github.io/src/",
+      "relativePath": "",
+      "extension": "",
+      "size": 192,
+      "prettySize": "192 B",
+      "modifiedTime": "2018-09-09T22:31:37.000Z",
+      "accessTime": "2018-09-09T22:32:04.419Z",
+      "changeTime": "2018-09-09T22:31:37.020Z",
+      "birthTime": "2018-09-09T05:16:08.000Z",
+      "root": "/",
+      "dir": "/Users/vevinatrinh/Documents/repos/partialfractions.github.io",
+      "base": "src",
+      "ext": "",
+      "name": "src",
+      "relativeDirectory": "..",
+      "dev": 16777221,
+      "mode": 16877,
+      "nlink": 6,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 1924814,
+      "blocks": 0,
+      "atimeMs": 1536532324418.9363,
+      "mtimeMs": 1536532297000,
+      "ctimeMs": 1536532297019.546,
+      "birthtimeMs": 1536470168000,
+      "atime": "2018-09-09T22:32:04.419Z",
+      "mtime": "2018-09-09T22:31:37.000Z",
+      "ctime": "2018-09-09T22:31:37.020Z",
+      "birthtime": "2018-09-09T05:16:08.000Z"
+    },
+    "/Users/vevinatrinh/Documents/repos/partialfractions.github.io/src/layouts absPath of file": {
+      "id": "/Users/vevinatrinh/Documents/repos/partialfractions.github.io/src/layouts absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "4ead7cc68edad7d9515ab3e2ee294cab",
+        "type": "Directory",
+        "description": "Directory \"src/layouts\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/vevinatrinh/Documents/repos/partialfractions.github.io/src/layouts",
+      "relativePath": "layouts",
+      "extension": "",
+      "size": 96,
+      "prettySize": "96 B",
+      "modifiedTime": "2018-09-09T22:27:28.000Z",
+      "accessTime": "2018-09-09T22:32:04.422Z",
+      "changeTime": "2018-09-09T22:27:28.774Z",
+      "birthTime": "2018-09-09T20:06:19.000Z",
+      "root": "/",
+      "dir": "/Users/vevinatrinh/Documents/repos/partialfractions.github.io/src",
+      "base": "layouts",
+      "ext": "",
+      "name": "layouts",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 16877,
+      "nlink": 3,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 1924817,
+      "blocks": 0,
+      "atimeMs": 1536532324421.58,
+      "mtimeMs": 1536532048000,
+      "ctimeMs": 1536532048774.2832,
+      "birthtimeMs": 1536523579000,
+      "atime": "2018-09-09T22:32:04.422Z",
+      "mtime": "2018-09-09T22:27:28.000Z",
+      "ctime": "2018-09-09T22:27:28.774Z",
+      "birthtime": "2018-09-09T20:06:19.000Z"
+    },
+    "/Users/vevinatrinh/Documents/repos/partialfractions.github.io/src/pages absPath of file": {
+      "id": "/Users/vevinatrinh/Documents/repos/partialfractions.github.io/src/pages absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "0193a9765df709b8eb5c0281ff860a2f",
+        "type": "Directory",
+        "description": "Directory \"src/pages\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/vevinatrinh/Documents/repos/partialfractions.github.io/src/pages",
+      "relativePath": "pages",
+      "extension": "",
+      "size": 224,
+      "prettySize": "224 B",
+      "modifiedTime": "2018-09-09T22:31:37.000Z",
+      "accessTime": "2018-09-09T22:32:04.422Z",
+      "changeTime": "2018-09-09T22:31:37.383Z",
+      "birthTime": "2018-09-09T05:16:08.000Z",
+      "root": "/",
+      "dir": "/Users/vevinatrinh/Documents/repos/partialfractions.github.io/src",
+      "base": "pages",
+      "ext": "",
+      "name": "pages",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 16877,
+      "nlink": 7,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 1924821,
+      "blocks": 0,
+      "atimeMs": 1536532324421.692,
+      "mtimeMs": 1536532297000,
+      "ctimeMs": 1536532297382.8633,
+      "birthtimeMs": 1536470168000,
+      "atime": "2018-09-09T22:32:04.422Z",
+      "mtime": "2018-09-09T22:31:37.000Z",
+      "ctime": "2018-09-09T22:31:37.383Z",
+      "birthtime": "2018-09-09T05:16:08.000Z"
+    },
+    "/Users/vevinatrinh/Documents/repos/partialfractions.github.io/src/templates absPath of file": {
+      "id": "/Users/vevinatrinh/Documents/repos/partialfractions.github.io/src/templates absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "0999295a9bbcbd5d9907404d94ea9058",
+        "type": "Directory",
+        "description": "Directory \"src/templates\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/vevinatrinh/Documents/repos/partialfractions.github.io/src/templates",
+      "relativePath": "templates",
+      "extension": "",
+      "size": 96,
+      "prettySize": "96 B",
+      "modifiedTime": "2018-09-09T22:02:51.000Z",
+      "accessTime": "2018-09-09T22:32:04.422Z",
+      "changeTime": "2018-09-09T22:02:51.959Z",
+      "birthTime": "2018-09-09T21:09:30.000Z",
+      "root": "/",
+      "dir": "/Users/vevinatrinh/Documents/repos/partialfractions.github.io/src",
+      "base": "templates",
+      "ext": "",
+      "name": "templates",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 16877,
+      "nlink": 3,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 1924819,
+      "blocks": 0,
+      "atimeMs": 1536532324421.66,
+      "mtimeMs": 1536530571000,
+      "ctimeMs": 1536530571958.7913,
+      "birthtimeMs": 1536527370000,
+      "atime": "2018-09-09T22:32:04.422Z",
+      "mtime": "2018-09-09T22:02:51.000Z",
+      "ctime": "2018-09-09T22:02:51.959Z",
+      "birthtime": "2018-09-09T21:09:30.000Z"
+    },
+    "/Users/vevinatrinh/Documents/repos/partialfractions.github.io/src/utils absPath of file": {
+      "id": "/Users/vevinatrinh/Documents/repos/partialfractions.github.io/src/utils absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "8c438659ae29e0eb225fa3094e2a0046",
+        "type": "Directory",
+        "description": "Directory \"src/utils\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/vevinatrinh/Documents/repos/partialfractions.github.io/src/utils",
+      "relativePath": "utils",
+      "extension": "",
+      "size": 96,
+      "prettySize": "96 B",
+      "modifiedTime": "2018-09-09T22:20:53.000Z",
+      "accessTime": "2018-09-09T22:32:04.422Z",
+      "changeTime": "2018-09-09T22:20:53.646Z",
+      "birthTime": "2018-09-09T20:07:11.000Z",
+      "root": "/",
+      "dir": "/Users/vevinatrinh/Documents/repos/partialfractions.github.io/src",
+      "base": "utils",
+      "ext": "",
+      "name": "utils",
+      "relativeDirectory": "",
+      "dev": 16777221,
+      "mode": 16877,
+      "nlink": 3,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 1924815,
+      "blocks": 0,
+      "atimeMs": 1536532324421.7832,
+      "mtimeMs": 1536531653000,
+      "ctimeMs": 1536531653645.7825,
+      "birthtimeMs": 1536523631000,
+      "atime": "2018-09-09T22:32:04.422Z",
+      "mtime": "2018-09-09T22:20:53.000Z",
+      "ctime": "2018-09-09T22:20:53.646Z",
+      "birthtime": "2018-09-09T20:07:11.000Z"
+    },
+    "/Users/vevinatrinh/Documents/repos/partialfractions.github.io/src/layouts/index.js absPath of file": {
+      "id": "/Users/vevinatrinh/Documents/repos/partialfractions.github.io/src/layouts/index.js absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "cc3ce2df5200766c2ba94061c1469ce3",
+        "mediaType": "application/javascript",
+        "type": "File",
+        "description": "File \"src/layouts/index.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/vevinatrinh/Documents/repos/partialfractions.github.io/src/layouts/index.js",
+      "relativePath": "layouts/index.js",
+      "extension": "js",
+      "size": 819,
+      "prettySize": "819 B",
+      "modifiedTime": "2018-09-09T22:43:16.095Z",
+      "accessTime": "2018-09-09T22:43:16.095Z",
+      "changeTime": "2018-09-09T22:43:16.095Z",
+      "birthTime": "2018-09-09T20:06:28.232Z",
+      "root": "/",
+      "dir": "/Users/vevinatrinh/Documents/repos/partialfractions.github.io/src/layouts",
+      "base": "index.js",
+      "ext": ".js",
+      "name": "index",
+      "relativeDirectory": "layouts",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 1924818,
+      "blocks": 8,
+      "atimeMs": 1536532996095.2605,
+      "mtimeMs": 1536532996095.4548,
+      "ctimeMs": 1536532996095.4548,
+      "birthtimeMs": 1536523588231.804,
+      "atime": "2018-09-09T22:43:16.095Z",
+      "mtime": "2018-09-09T22:43:16.095Z",
+      "ctime": "2018-09-09T22:43:16.095Z",
+      "birthtime": "2018-09-09T20:06:28.232Z"
+    },
+    "/Users/vevinatrinh/Documents/repos/partialfractions.github.io/src/templates/blog-post.js absPath of file": {
+      "id": "/Users/vevinatrinh/Documents/repos/partialfractions.github.io/src/templates/blog-post.js absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "b9b61f223b80ce45f0f0e08679990357",
+        "mediaType": "application/javascript",
+        "type": "File",
+        "description": "File \"src/templates/blog-post.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/vevinatrinh/Documents/repos/partialfractions.github.io/src/templates/blog-post.js",
+      "relativePath": "templates/blog-post.js",
+      "extension": "js",
+      "size": 428,
+      "prettySize": "428 B",
+      "modifiedTime": "2018-09-09T21:12:29.258Z",
+      "accessTime": "2018-09-09T22:22:13.406Z",
+      "changeTime": "2018-09-09T21:56:52.665Z",
+      "birthTime": "2018-09-09T21:09:42.181Z",
+      "root": "/",
+      "dir": "/Users/vevinatrinh/Documents/repos/partialfractions.github.io/src/templates",
+      "base": "blog-post.js",
+      "ext": ".js",
+      "name": "blog-post",
+      "relativeDirectory": "templates",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 1924820,
+      "blocks": 8,
+      "atimeMs": 1536531733406.4006,
+      "mtimeMs": 1536527549258.456,
+      "ctimeMs": 1536530212664.5876,
+      "birthtimeMs": 1536527382180.6746,
+      "atime": "2018-09-09T22:22:13.406Z",
+      "mtime": "2018-09-09T21:12:29.258Z",
+      "ctime": "2018-09-09T21:56:52.665Z",
+      "birthtime": "2018-09-09T21:09:42.181Z"
+    },
+    "/Users/vevinatrinh/Documents/repos/partialfractions.github.io/src/pages/index.js absPath of file": {
+      "id": "/Users/vevinatrinh/Documents/repos/partialfractions.github.io/src/pages/index.js absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "745b0f245fb2afc8d11b9ec03606c950",
+        "mediaType": "application/javascript",
+        "type": "File",
+        "description": "File \"src/pages/index.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/vevinatrinh/Documents/repos/partialfractions.github.io/src/pages/index.js",
+      "relativePath": "pages/index.js",
+      "extension": "js",
+      "size": 1251,
+      "prettySize": "1.25 kB",
+      "modifiedTime": "2018-09-09T22:37:12.802Z",
+      "accessTime": "2018-09-09T22:37:12.802Z",
+      "changeTime": "2018-09-09T22:37:12.802Z",
+      "birthTime": "2018-09-09T05:16:08.484Z",
+      "root": "/",
+      "dir": "/Users/vevinatrinh/Documents/repos/partialfractions.github.io/src/pages",
+      "base": "index.js",
+      "ext": ".js",
+      "name": "index",
+      "relativeDirectory": "pages",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 1924824,
+      "blocks": 8,
+      "atimeMs": 1536532632801.6375,
+      "mtimeMs": 1536532632801.789,
+      "ctimeMs": 1536532632801.789,
+      "birthtimeMs": 1536470168484.134,
+      "atime": "2018-09-09T22:37:12.802Z",
+      "mtime": "2018-09-09T22:37:12.802Z",
+      "ctime": "2018-09-09T22:37:12.802Z",
+      "birthtime": "2018-09-09T05:16:08.484Z"
+    },
+    "/Users/vevinatrinh/Documents/repos/partialfractions.github.io/src/pages/about.js absPath of file": {
+      "id": "/Users/vevinatrinh/Documents/repos/partialfractions.github.io/src/pages/about.js absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "8808c478af1a19621d97aafa55f778f5",
+        "mediaType": "application/javascript",
+        "type": "File",
+        "description": "File \"src/pages/about.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/vevinatrinh/Documents/repos/partialfractions.github.io/src/pages/about.js",
+      "relativePath": "pages/about.js",
+      "extension": "js",
+      "size": 426,
+      "prettySize": "426 B",
+      "modifiedTime": "2018-09-09T20:18:57.803Z",
+      "accessTime": "2018-09-09T22:22:13.453Z",
+      "changeTime": "2018-09-09T21:56:52.679Z",
+      "birthTime": "2018-09-09T20:06:01.760Z",
+      "root": "/",
+      "dir": "/Users/vevinatrinh/Documents/repos/partialfractions.github.io/src/pages",
+      "base": "about.js",
+      "ext": ".js",
+      "name": "about",
+      "relativeDirectory": "pages",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 1924822,
+      "blocks": 8,
+      "atimeMs": 1536531733452.8623,
+      "mtimeMs": 1536524337802.756,
+      "ctimeMs": 1536530212679.498,
+      "birthtimeMs": 1536523561760.3457,
+      "atime": "2018-09-09T22:22:13.453Z",
+      "mtime": "2018-09-09T20:18:57.803Z",
+      "ctime": "2018-09-09T21:56:52.679Z",
+      "birthtime": "2018-09-09T20:06:01.760Z"
+    },
+    "/Users/vevinatrinh/Documents/repos/partialfractions.github.io/src/utils/typography.js absPath of file": {
+      "id": "/Users/vevinatrinh/Documents/repos/partialfractions.github.io/src/utils/typography.js absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "f06a280e08d0392026a237b0390631f1",
+        "mediaType": "application/javascript",
+        "type": "File",
+        "description": "File \"src/utils/typography.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/vevinatrinh/Documents/repos/partialfractions.github.io/src/utils/typography.js",
+      "relativePath": "utils/typography.js",
+      "extension": "js",
+      "size": 176,
+      "prettySize": "176 B",
+      "modifiedTime": "2018-09-09T22:07:35.777Z",
+      "accessTime": "2018-09-09T22:22:13.453Z",
+      "changeTime": "2018-09-09T22:07:35.777Z",
+      "birthTime": "2018-09-09T20:07:28.610Z",
+      "root": "/",
+      "dir": "/Users/vevinatrinh/Documents/repos/partialfractions.github.io/src/utils",
+      "base": "typography.js",
+      "ext": ".js",
+      "name": "typography",
+      "relativeDirectory": "utils",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 1924816,
+      "blocks": 8,
+      "atimeMs": 1536531733453.0642,
+      "mtimeMs": 1536530855776.725,
+      "ctimeMs": 1536530855776.725,
+      "birthtimeMs": 1536523648609.8428,
+      "atime": "2018-09-09T22:22:13.453Z",
+      "mtime": "2018-09-09T22:07:35.777Z",
+      "ctime": "2018-09-09T22:07:35.777Z",
+      "birthtime": "2018-09-09T20:07:28.610Z"
+    },
+    "/Users/vevinatrinh/Documents/repos/partialfractions.github.io/src/pages/pandas-and-bananas.md absPath of file": {
+      "id": "/Users/vevinatrinh/Documents/repos/partialfractions.github.io/src/pages/pandas-and-bananas.md absPath of file",
+      "children": [
+        "/Users/vevinatrinh/Documents/repos/partialfractions.github.io/src/pages/pandas-and-bananas.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "3054933feadb2eef7413c984437696a9",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "description": "File \"src/pages/pandas-and-bananas.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/vevinatrinh/Documents/repos/partialfractions.github.io/src/pages/pandas-and-bananas.md",
+      "relativePath": "pages/pandas-and-bananas.md",
+      "extension": "md",
+      "size": 289,
+      "prettySize": "289 B",
+      "modifiedTime": "2018-09-09T20:46:35.529Z",
+      "accessTime": "2018-09-09T22:09:46.148Z",
+      "changeTime": "2018-09-09T21:56:52.691Z",
+      "birthTime": "2018-09-09T20:46:20.724Z",
+      "root": "/",
+      "dir": "/Users/vevinatrinh/Documents/repos/partialfractions.github.io/src/pages",
+      "base": "pandas-and-bananas.md",
+      "ext": ".md",
+      "name": "pandas-and-bananas",
+      "relativeDirectory": "pages",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 1924825,
+      "blocks": 8,
+      "atimeMs": 1536530986148.0798,
+      "mtimeMs": 1536525995529.1106,
+      "ctimeMs": 1536530212691.2288,
+      "birthtimeMs": 1536525980723.5662,
+      "atime": "2018-09-09T22:09:46.148Z",
+      "mtime": "2018-09-09T20:46:35.529Z",
+      "ctime": "2018-09-09T21:56:52.691Z",
+      "birthtime": "2018-09-09T20:46:20.724Z"
+    },
+    "/Users/vevinatrinh/Documents/repos/partialfractions.github.io/src/pages/sweet-pandas-eating-sweets.md absPath of file": {
+      "id": "/Users/vevinatrinh/Documents/repos/partialfractions.github.io/src/pages/sweet-pandas-eating-sweets.md absPath of file",
+      "children": [
+        "/Users/vevinatrinh/Documents/repos/partialfractions.github.io/src/pages/sweet-pandas-eating-sweets.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "8054470c6fc44807d4ee10027a347b61",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "description": "File \"src/pages/sweet-pandas-eating-sweets.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/vevinatrinh/Documents/repos/partialfractions.github.io/src/pages/sweet-pandas-eating-sweets.md",
+      "relativePath": "pages/sweet-pandas-eating-sweets.md",
+      "extension": "md",
+      "size": 255,
+      "prettySize": "255 B",
+      "modifiedTime": "2018-09-09T20:39:46.118Z",
+      "accessTime": "2018-09-09T22:09:46.148Z",
+      "changeTime": "2018-09-09T21:56:52.683Z",
+      "birthTime": "2018-09-09T20:39:26.516Z",
+      "root": "/",
+      "dir": "/Users/vevinatrinh/Documents/repos/partialfractions.github.io/src/pages",
+      "base": "sweet-pandas-eating-sweets.md",
+      "ext": ".md",
+      "name": "sweet-pandas-eating-sweets",
+      "relativeDirectory": "pages",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 1924823,
+      "blocks": 8,
+      "atimeMs": 1536530986148.0679,
+      "mtimeMs": 1536525586118.4666,
+      "ctimeMs": 1536530212683.0732,
+      "birthtimeMs": 1536525566516.1438,
+      "atime": "2018-09-09T22:09:46.148Z",
+      "mtime": "2018-09-09T20:39:46.118Z",
+      "ctime": "2018-09-09T21:56:52.683Z",
+      "birthtime": "2018-09-09T20:39:26.516Z"
+    },
+    "/Users/vevinatrinh/Documents/repos/partialfractions.github.io/src/pages/pandas-and-bananas.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/vevinatrinh/Documents/repos/partialfractions.github.io/src/pages/pandas-and-bananas.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/vevinatrinh/Documents/repos/partialfractions.github.io/src/pages/pandas-and-bananas.md absPath of file",
+      "internal": {
+        "content": "---\ntitle: Pandas and Bananas\ndate: \"2017-08-21\"\n---\n\nDo Pandas eat bananas? Check out this short video that shows that yes! pandas do\nseem to really enjoy bananas!\n\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/4SZl1r2O_bY\" frameborder=\"0\" allowfullscreen></iframe>\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "ded4711a8d3b4b17e1f34b6e94db3df1",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "Pandas and Bananas",
+        "date": "2017-08-21",
+        "_PARENT": "/Users/vevinatrinh/Documents/repos/partialfractions.github.io/src/pages/pandas-and-bananas.md absPath of file",
+        "parent": "/Users/vevinatrinh/Documents/repos/partialfractions.github.io/src/pages/pandas-and-bananas.md absPath of file"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\nDo Pandas eat bananas? Check out this short video that shows that yes! pandas do\nseem to really enjoy bananas!\n\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/4SZl1r2O_bY\" frameborder=\"0\" allowfullscreen></iframe>\n",
+      "fileAbsolutePath": "/Users/vevinatrinh/Documents/repos/partialfractions.github.io/src/pages/pandas-and-bananas.md",
+      "fields": {
+        "slug": "/pandas-and-bananas/"
+      }
+    },
+    "/Users/vevinatrinh/Documents/repos/partialfractions.github.io/src/pages/sweet-pandas-eating-sweets.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/vevinatrinh/Documents/repos/partialfractions.github.io/src/pages/sweet-pandas-eating-sweets.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/vevinatrinh/Documents/repos/partialfractions.github.io/src/pages/sweet-pandas-eating-sweets.md absPath of file",
+      "internal": {
+        "content": "---\ntitle: \"Sweet Pandas Eating Sweets\"\ndate: \"2017-08-10\"\n---\n\nPandas are really sweet.\n\nHere's a video of a panda eating sweets.\n\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/4n0xNbfJLR8\" frameborder=\"0\" allowfullscreen></iframe>\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "c0d374808b9064e5c637c0ba257e8840",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "Sweet Pandas Eating Sweets",
+        "date": "2017-08-10",
+        "_PARENT": "/Users/vevinatrinh/Documents/repos/partialfractions.github.io/src/pages/sweet-pandas-eating-sweets.md absPath of file",
+        "parent": "/Users/vevinatrinh/Documents/repos/partialfractions.github.io/src/pages/sweet-pandas-eating-sweets.md absPath of file"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\nPandas are really sweet.\n\nHere's a video of a panda eating sweets.\n\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/4n0xNbfJLR8\" frameborder=\"0\" allowfullscreen></iframe>\n",
+      "fileAbsolutePath": "/Users/vevinatrinh/Documents/repos/partialfractions.github.io/src/pages/sweet-pandas-eating-sweets.md",
+      "fields": {
+        "slug": "/sweet-pandas-eating-sweets/"
+      }
+    },
+    "SitePage /pandas-and-bananas/": {
+      "layout": "index",
+      "jsonName": "pandas-and-bananas.json",
+      "internalComponentName": "ComponentPandasAndBananas",
+      "path": "/pandas-and-bananas/",
+      "component": "/Users/vevinatrinh/Documents/repos/partialfractions.github.io/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "context": {
+        "slug": "/pandas-and-bananas/"
+      },
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/vevinatrinh/Documents/repos/partialfractions.github.io/src/templates/blog-post.js",
+      "id": "SitePage /pandas-and-bananas/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "72179dc5014e6676df1d944cfe7ef844",
+        "description": "Your site's \"gatsby-node.js\"",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /sweet-pandas-eating-sweets/": {
+      "layout": "index",
+      "jsonName": "sweet-pandas-eating-sweets.json",
+      "internalComponentName": "ComponentSweetPandasEatingSweets",
+      "path": "/sweet-pandas-eating-sweets/",
+      "component": "/Users/vevinatrinh/Documents/repos/partialfractions.github.io/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "context": {
+        "slug": "/sweet-pandas-eating-sweets/"
+      },
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/vevinatrinh/Documents/repos/partialfractions.github.io/src/templates/blog-post.js",
+      "id": "SitePage /sweet-pandas-eating-sweets/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "fb180befc1b9d738fce1df3acb5b089a",
+        "description": "Your site's \"gatsby-node.js\"",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /about/": {
+      "layout": "index",
+      "jsonName": "about.json",
+      "internalComponentName": "ComponentAbout",
+      "path": "/about/",
+      "component": "/Users/vevinatrinh/Documents/repos/partialfractions.github.io/src/pages/about.js",
+      "componentChunkName": "component---src-pages-about-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/Users/vevinatrinh/Documents/repos/partialfractions.github.io/src/pages/about.js",
+      "id": "SitePage /about/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "3883e7577ee97921563130f39c08972f",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /": {
+      "layout": "index",
+      "jsonName": "index.json",
+      "internalComponentName": "ComponentIndex",
+      "path": "/",
+      "component": "/Users/vevinatrinh/Documents/repos/partialfractions.github.io/src/pages/index.js",
+      "componentChunkName": "component---src-pages-index-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/Users/vevinatrinh/Documents/repos/partialfractions.github.io/src/pages/index.js",
+      "id": "SitePage /",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "8397af6611749a1485677cbecd003615",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /projects/": {
+      "layout": "index",
+      "jsonName": "projects.json",
+      "internalComponentName": "ComponentProjects",
+      "path": "/projects/",
+      "component": "/Users/vevinatrinh/Documents/repos/partialfractions.github.io/src/pages/projects.js",
+      "componentChunkName": "component---src-pages-projects-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/Users/vevinatrinh/Documents/repos/partialfractions.github.io/src/pages/projects.js",
+      "id": "SitePage /projects/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "8f187bd9f78ab3fb829179120763c64f",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "/Users/vevinatrinh/Documents/repos/partialfractions.github.io/src/pages/projects.js absPath of file": {
+      "id": "/Users/vevinatrinh/Documents/repos/partialfractions.github.io/src/pages/projects.js absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "a506d7a2344fb1a18b39b090b4f01520",
+        "mediaType": "application/javascript",
+        "type": "File",
+        "description": "File \"src/pages/projects.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/vevinatrinh/Documents/repos/partialfractions.github.io/src/pages/projects.js",
+      "relativePath": "pages/projects.js",
+      "extension": "js",
+      "size": 1032,
+      "prettySize": "1.03 kB",
+      "modifiedTime": "2018-09-09T20:33:47.402Z",
+      "accessTime": "2018-09-09T22:42:40.319Z",
+      "changeTime": "2018-09-09T22:42:46.263Z",
+      "birthTime": "2018-09-09T20:31:32.058Z",
+      "root": "/",
+      "dir": "/Users/vevinatrinh/Documents/repos/partialfractions.github.io/src/pages",
+      "base": "projects.js",
+      "ext": ".js",
+      "name": "projects",
+      "relativeDirectory": "pages",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 1924826,
+      "blocks": 8,
+      "atimeMs": 1536532960319.4177,
+      "mtimeMs": 1536525227402.087,
+      "ctimeMs": 1536532966262.696,
+      "birthtimeMs": 1536525092058.1506,
+      "atime": "2018-09-09T22:42:40.319Z",
+      "mtime": "2018-09-09T20:33:47.402Z",
+      "ctime": "2018-09-09T22:42:46.263Z",
+      "birthtime": "2018-09-09T20:31:32.058Z"
+    },
+    "SitePage /experience/": {
+      "layout": "index",
+      "jsonName": "experience.json",
+      "internalComponentName": "ComponentExperience",
+      "path": "/experience/",
+      "component": "/Users/vevinatrinh/Documents/repos/partialfractions.github.io/src/pages/experience.js",
+      "componentChunkName": "component---src-pages-experience-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/Users/vevinatrinh/Documents/repos/partialfractions.github.io/src/pages/experience.js",
+      "id": "SitePage /experience/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "53459e7277de71815f6753effe99737e",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "/Users/vevinatrinh/Documents/repos/partialfractions.github.io/src/pages/experience.js absPath of file": {
+      "id": "/Users/vevinatrinh/Documents/repos/partialfractions.github.io/src/pages/experience.js absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "cf4707c8285ac3bc93c03b0810fdaaa6",
+        "mediaType": "application/javascript",
+        "type": "File",
+        "description": "File \"src/pages/experience.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/vevinatrinh/Documents/repos/partialfractions.github.io/src/pages/experience.js",
+      "relativePath": "pages/experience.js",
+      "extension": "js",
+      "size": 1035,
+      "prettySize": "1.03 kB",
+      "modifiedTime": "2018-09-09T22:43:42.660Z",
+      "accessTime": "2018-09-09T22:43:42.660Z",
+      "changeTime": "2018-09-09T22:43:42.660Z",
+      "birthTime": "2018-09-09T22:42:54.828Z",
+      "root": "/",
+      "dir": "/Users/vevinatrinh/Documents/repos/partialfractions.github.io/src/pages",
+      "base": "experience.js",
+      "ext": ".js",
+      "name": "experience",
+      "relativeDirectory": "pages",
+      "dev": 16777221,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 1936696,
+      "blocks": 8,
+      "atimeMs": 1536533022660.2925,
+      "mtimeMs": 1536533022660.4358,
+      "ctimeMs": 1536533022660.4358,
+      "birthtimeMs": 1536532974827.5823,
+      "atime": "2018-09-09T22:43:42.660Z",
+      "mtime": "2018-09-09T22:43:42.660Z",
+      "ctime": "2018-09-09T22:43:42.660Z",
+      "birthtime": "2018-09-09T22:42:54.828Z"
+    }
+  },
+  "status": {
+    "plugins": {},
+    "PLUGINS_HASH": "a571e35c1b801b5ab33cc8d61dbbf797"
+  },
+  "componentDataDependencies": {
+    "nodes": {
+      "Site": [
+        "LAYOUT___index",
+        "/about/"
+      ],
+      "/Users/vevinatrinh/Documents/repos/partialfractions.github.io/src/pages/sweet-pandas-eating-sweets.md absPath of file >>> MarkdownRemark": [
+        "/sweet-pandas-eating-sweets/"
+      ],
+      "/Users/vevinatrinh/Documents/repos/partialfractions.github.io/src/pages/pandas-and-bananas.md absPath of file >>> MarkdownRemark": [
+        "/pandas-and-bananas/"
+      ]
+    },
+    "connections": {
+      "SitePage": [
+        "/dev-404-page/"
+      ],
+      "File": [
+        "/my-files/",
+        "/projects/",
+        "/experience/"
+      ]
+    }
+  }
+}
