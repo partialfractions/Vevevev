@@ -7,10 +7,13 @@ import { rhythm } from "../utils/typography";
 
 export default () => {
   return (
-    <div>
-      <g.H1 display={"inline-block"}>
+    <div style={{fontSize: '150%'}}>
+      <h1
+        display={"inline-block"}
+        fontSize={"500%"}
+      >
         VEVINA TRINH
-      </g.H1>
+      </h1>
       <Typing loop={true}>
         <div>
           Computer Science Student
@@ -19,39 +22,23 @@ export default () => {
           Plant Parent
           <Typing.Delay ms={1000} />
           <Typing.Backspace count={12} />
+          Rock Climber
+          <Typing.Delay ms={1000} />
+          <Typing.Backspace count={12} />
+          Coffee Lover
+          <Typing.Delay ms={1000} />
+          <Typing.Backspace count={12} />
+          Web Developer
+          <Typing.Delay ms={1000} />
+          <Typing.Backspace count={13} />
+          Illustrator
+          <Typing.Delay ms={1000} />
+          <Typing.Backspace count={11} />
+          Friend
+          <Typing.Delay ms={1000} />
+          <Typing.Backspace count={6} />
         </div>
       </Typing>
     </div>
   );
 };
-
-// const AnimatedTypingComponent = () => (
-//   <Typing>
-//     <div>
-//       Computer Science Student
-//       <Typing.Backspace count={24} />
-//       Plant Parent
-//     </div>
-//   </Typing>
-// );
-
-// export const query = graphql`
-//   query IndexQuery {
-//     allMarkdownRemark(sort: {fields: [frontmatter___date], order: DESC}) {
-//       totalCount
-//       edges {
-//         node {
-//           id
-//           frontmatter {
-//             title
-//             date(formatString: "DD MMMM, YYYY")
-//           }
-//           fields {
-//             slug
-//           }
-//           excerpt
-//         }
-//       }
-//     }
-//   }
-// `;
