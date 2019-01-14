@@ -7,12 +7,10 @@ import { rhythm } from "../utils/typography";
 
 export default ({ children, data }) =>
   <g.Div
-    background={'#ffebee'}
-    height={'100vh'}
+    background={'#ffcdd2'}
+    height={'100%'}
     margin={`0 auto`}
     maxWidth={'100vw'}
-    padding={rhythm(2)}
-    paddingTop={rhythm(1.5)}
   >
     {children()}
   </g.Div>
