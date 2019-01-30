@@ -1,7 +1,6 @@
 module.exports = {
   siteMetadata: {
     title: `Vevina Trinh`,
-    icon: `src/images/icon.png`,
   },
   plugins: [
     `gatsby-plugin-glamor`,

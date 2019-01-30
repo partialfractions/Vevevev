@@ -16,7 +16,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "c9949116c4525f3c8719ba65ddc74b70",
+        "contentDigest": "ff1bc3fcf0f105226cf6d4c18a47875d",
         "description": "Plugin dev-404-page",
         "owner": "internal-data-bridge"
       }
@@ -369,12 +369,28 @@
             "version": "^1.9.277"
           },
           {
+            "name": "gatsby-image",
+            "version": "^2.0.25"
+          },
+          {
             "name": "gatsby-link",
             "version": "^1.6.46"
           },
           {
             "name": "gatsby-plugin-glamor",
             "version": "^1.6.13"
+          },
+          {
+            "name": "gatsby-plugin-google-fonts",
+            "version": "0.0.4"
+          },
+          {
+            "name": "gatsby-plugin-manifest",
+            "version": "^2.0.13"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^2.0.17"
           },
           {
             "name": "gatsby-plugin-typography",
@@ -389,12 +405,36 @@
             "version": "^1.7.44"
           },
           {
+            "name": "gatsby-transformer-sharp",
+            "version": "^2.1.10"
+          },
+          {
             "name": "glamorous",
             "version": "^4.13.1"
           },
           {
+            "name": "react-fade",
+            "version": "^1.1.1"
+          },
+          {
+            "name": "react-helmet",
+            "version": "^5.2.0"
+          },
+          {
+            "name": "react-image",
+            "version": "^1.5.1"
+          },
+          {
             "name": "react-typing-animation",
             "version": "^1.4.0"
+          },
+          {
+            "name": "typography",
+            "version": "^0.16.18"
+          },
+          {
+            "name": "typography-theme-bootstrap",
+            "version": "^0.16.18"
           },
           {
             "name": "typography-theme-fairy-gates",
@@ -403,6 +443,10 @@
           {
             "name": "typography-theme-kirkham",
             "version": "^0.16.3"
+          },
+          {
+            "name": "typography-theme-wordpress-2011",
+            "version": "^0.16.18"
           }
         ],
         "devDependencies": [],
@@ -508,12 +552,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-01-09T02:30:10.198Z",
+      "buildTime": "2019-01-30T05:31:44.382Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "ff072d4ce884f0780320c5548332d18c",
+        "contentDigest": "db86718af9361d767e601f96e367920c",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -534,7 +578,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "f440f0c46e3a8b8771d39a412d4981b0",
+        "contentDigest": "0aa7e2e5aa4dfda7fd4fc4bcd134720c",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -542,7 +586,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "bdf1bb8d989ff5b99864d77f66010c15"
+    "PLUGINS_HASH": "00be06176d0f07b0f65a49f6255f6281"
   },
   "componentDataDependencies": {
     "nodes": {
