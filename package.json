@@ -20,9 +20,10 @@
     "gatsby-transformer-sharp": "^2.1.10",
     "glamorous": "^4.13.1",
     "react-fade": "^1.1.1",
+    "react-helmet": "^5.2.0",
     "react-image": "^1.5.1",
     "react-typing-animation": "^1.4.0",
-    "typography-theme-fairy-gates": "^0.15.11",
-    "typography-theme-kirkham": "^0.16.3"
+    "typography": "^0.16.18",
+    "typography-theme-wordpress-2011": "^0.16.18"
   }
 }
