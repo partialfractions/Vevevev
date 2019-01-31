@@ -346,6 +346,18 @@
             "version": "^1.5.1"
           },
           {
+            "name": "react-fade",
+            "version": "^1.1.1"
+          },
+          {
+            "name": "react-helmet",
+            "version": "^5.2.0"
+          },
+          {
+            "name": "react-image",
+            "version": "^1.5.1"
+          },
+          {
             "name": "react-typing-animation",
             "version": "^1.6.2"
           },
