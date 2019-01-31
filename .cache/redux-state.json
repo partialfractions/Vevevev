@@ -16,7 +16,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "ff1bc3fcf0f105226cf6d4c18a47875d",
+        "contentDigest": "ba5e4a322cb8b46a9482b69f32898d7a",
         "description": "Plugin dev-404-page",
         "owner": "internal-data-bridge"
       }
@@ -381,10 +381,6 @@
             "version": "^1.6.13"
           },
           {
-            "name": "gatsby-plugin-google-fonts",
-            "version": "0.0.4"
-          },
-          {
             "name": "gatsby-plugin-manifest",
             "version": "^2.0.13"
           },
@@ -426,23 +422,11 @@
           },
           {
             "name": "react-typing-animation",
-            "version": "^1.4.0"
+            "version": "^1.6.2"
           },
           {
             "name": "typography",
             "version": "^0.16.18"
-          },
-          {
-            "name": "typography-theme-bootstrap",
-            "version": "^0.16.18"
-          },
-          {
-            "name": "typography-theme-fairy-gates",
-            "version": "^0.15.11"
-          },
-          {
-            "name": "typography-theme-kirkham",
-            "version": "^0.16.3"
           },
           {
             "name": "typography-theme-wordpress-2011",
@@ -550,14 +534,12 @@
       },
       "port": "8000",
       "host": "localhost",
-      "pathPrefix": "",
-      "polyfill": true,
-      "buildTime": "2019-01-30T05:31:44.382Z",
+      "buildTime": "2019-01-30T19:00:39.108Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "db86718af9361d767e601f96e367920c",
+        "contentDigest": "44089976eea1cca6ec4e647d8f3da014",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -578,7 +560,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "0aa7e2e5aa4dfda7fd4fc4bcd134720c",
+        "contentDigest": "85a1251b900d30b1f4453231284b99cb",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -586,7 +568,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "00be06176d0f07b0f65a49f6255f6281"
+    "PLUGINS_HASH": "a374574e918e525dd60184f46625b7fe"
   },
   "componentDataDependencies": {
     "nodes": {

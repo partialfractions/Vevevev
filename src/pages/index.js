@@ -1,17 +1,21 @@
 import React from "react";
 import Fade from 'react-fade'
-import g from "glamorous";
-import Link from "gatsby-link";
 import Helmet from "react-helmet";
-import Typing from 'react-typing-animation';
 import MainImg from '../images/webname1.png';
 import IconImg from '../images/icon.png';
+import WorkCards from '../components/workCards.js';
+import FrontTyping from '../components/typing.js';
+import Illustrations from '../components/illustrations.js';
+import Contact from '../components/contact.js';
+
 
 import { rhythm } from "../utils/typography";
 
+
+
 export default () => {
   return (
-    <div>
+    <div style={{height: '100%', width: '100%'}}>
       <Helmet>
            <meta charSet="utf-8" />
            <title>Vevina</title>
@@ -19,36 +23,28 @@ export default () => {
        </Helmet>
 
        <Fade>
-         <div style={{height: '100vh', width: '100vw'}}>
-           <div style={{width: '90vw', margin:'0 auto 0vh auto', position: 'relative', paddingTop: '7vh'}}><img src={MainImg} style={{margin:'0', maxHeight: '75vh', position: 'relative', maxWidth: '100%'}} /></div>
-           <div style={{width: '95vw', height: '10vh', fontSize: '200%', color: '#c26e60', position: 'relative', float:'right'}}>
-             <Typing loop={true}>
-               <div>
-                 Vevina Trinh
-                 <Typing.Delay ms={1000} />
-                 <Typing.Backspace count={12} />
-                 Computer Science Student
-                 <Typing.Delay ms={1000} />
-                 <Typing.Backspace count={24} />
-                 Plant Parent
-                 <Typing.Delay ms={1000} />
-                 <Typing.Backspace count={12} />
-                 Rock Climber
-                 <Typing.Delay ms={1000} />
-                 <Typing.Backspace count={12} />
-                 Coffee Lover
-                 <Typing.Delay ms={1000} />
-                 <Typing.Backspace count={12} />
-                 Illustrator
-                 <Typing.Delay ms={1000} />
-                 <Typing.Backspace count={11} />
-                 Friend
-                 <Typing.Delay ms={1000} />
-                 <Typing.Backspace count={6} />
-               </div>
-             </Typing>
+        {/*opening*/}
+        <div style={{height: '100vh', width: '100vw'}}>
+           <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', width: '90vw', height:'88vh', margin:'0 auto 0vh auto', position: 'relative', paddingTop: '9vh'}}>
+            <img src={MainImg} style={{ margin:'0 auto', maxHeight: '75vh', maxWidth: '80%'}} />
            </div>
+           <FrontTyping/>
          </div>
+         {/*work*/}
+         <div style={{position: 'relative', marginLeft:'10%'}}>
+          <h1 style={{position: 'relative', fontSize: '500%', color: '#c26e60'}}>work</h1>
+         </div>
+         <WorkCards/>
+         {/*illustrations*/}
+         <div style={{position: 'relative', marginLeft:'10%'}}>
+          <h1 style={{position: 'relative', fontSize: '500%', color: '#c26e60'}}>latest illustrations</h1>
+         </div>
+         <Illustrations/>
+         {/*contact*/}
+         <div style={{position: 'relative', marginLeft:'10%'}}>
+          <h1 style={{position: 'relative', fontSize: '500%', color: '#c26e60'}}>meet me!</h1>
+         </div>
+         <Contact/>
        </Fade>
     </div>
   );
