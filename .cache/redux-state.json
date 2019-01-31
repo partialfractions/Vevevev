@@ -16,7 +16,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "ff1bc3fcf0f105226cf6d4c18a47875d",
+        "contentDigest": "80515eef76b79ceb362b28815f65a58d",
         "description": "Plugin dev-404-page",
         "owner": "internal-data-bridge"
       }
@@ -202,77 +202,6 @@
         "owner": "internal-data-bridge"
       }
     },
-    "Plugin gatsby-plugin-glamor": {
-      "resolve": "/Users/vevinatrinh/Documents/repos/partialfractions.github.io/node_modules/gatsby-plugin-glamor",
-      "id": "Plugin gatsby-plugin-glamor",
-      "name": "gatsby-plugin-glamor",
-      "version": "1.6.13",
-      "pluginOptions": {
-        "plugins": []
-      },
-      "nodeAPIs": [
-        "modifyWebpackConfig",
-        "modifyBabelrc"
-      ],
-      "browserAPIs": [
-        "onClientEntry"
-      ],
-      "ssrAPIs": [
-        "replaceRenderer"
-      ],
-      "pluginFilepath": "/Users/vevinatrinh/Documents/repos/partialfractions.github.io/node_modules/gatsby-plugin-glamor",
-      "packageJson": {
-        "name": "gatsby-plugin-glamor",
-        "description": "Gatsby plugin to add support for Glamor",
-        "version": "1.6.13",
-        "main": "index.js",
-        "keywords": [
-          "gatsby",
-          "gatsby-plugin",
-          "glamor"
-        ],
-        "author": {
-          "name": "Kyle Mathews",
-          "email": "mathews.kyle@gmail.com"
-        },
-        "license": "MIT",
-        "dependencies": [
-          {
-            "name": "babel-runtime",
-            "version": "^6.26.0"
-          },
-          {
-            "name": "glamor",
-            "version": "^2.20.29"
-          }
-        ],
-        "devDependencies": [
-          {
-            "name": "babel-cli",
-            "version": "^6.26.0"
-          },
-          {
-            "name": "cross-env",
-            "version": "^5.0.5"
-          }
-        ],
-        "peerDependencies": [
-          {
-            "name": "gatsby",
-            "version": "^1.0.0"
-          }
-        ],
-        "optionalDependecies": [],
-        "bundledDependecies": []
-      },
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "contentDigest": "3d63cf49fc4f278f774acab8eb90a445",
-        "type": "SitePlugin",
-        "owner": "internal-data-bridge"
-      }
-    },
     "Plugin gatsby-plugin-typography": {
       "resolve": "/Users/vevinatrinh/Documents/repos/partialfractions.github.io/node_modules/gatsby-plugin-typography",
       "id": "Plugin gatsby-plugin-typography",
@@ -349,7 +278,7 @@
       "resolve": "/Users/vevinatrinh/Documents/repos/partialfractions.github.io",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "d352958af98e2eb0b2173c1dc06224fa",
+      "version": "9ee91fa7314734b882af3d40186cacd9",
       "pluginOptions": {
         "plugins": []
       },
@@ -381,10 +310,6 @@
             "version": "^1.6.13"
           },
           {
-            "name": "gatsby-plugin-google-fonts",
-            "version": "0.0.4"
-          },
-          {
             "name": "gatsby-plugin-manifest",
             "version": "^2.0.13"
           },
@@ -409,10 +334,6 @@
             "version": "^2.1.10"
           },
           {
-            "name": "glamorous",
-            "version": "^4.13.1"
-          },
-          {
             "name": "react-fade",
             "version": "^1.1.1"
           },
@@ -426,23 +347,19 @@
           },
           {
             "name": "react-typing-animation",
-            "version": "^1.4.0"
+            "version": "^1.6.2"
+          },
+          {
+            "name": "semantic-ui-css",
+            "version": "^2.4.1"
+          },
+          {
+            "name": "semantic-ui-react",
+            "version": "^0.84.0"
           },
           {
             "name": "typography",
             "version": "^0.16.18"
-          },
-          {
-            "name": "typography-theme-bootstrap",
-            "version": "^0.16.18"
-          },
-          {
-            "name": "typography-theme-fairy-gates",
-            "version": "^0.15.11"
-          },
-          {
-            "name": "typography-theme-kirkham",
-            "version": "^0.16.3"
           },
           {
             "name": "typography-theme-wordpress-2011",
@@ -457,7 +374,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "99914b53cb168ff6409b6b59ad1a4136",
+        "contentDigest": "a4a5e0cc73b4dd40feda910d606598cc",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -552,12 +469,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-01-30T05:31:44.382Z",
+      "buildTime": "2019-01-31T01:19:50.806Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "db86718af9361d767e601f96e367920c",
+        "contentDigest": "15a3a66762fe485ab3f7b202b32b2a42",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -578,7 +495,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "0aa7e2e5aa4dfda7fd4fc4bcd134720c",
+        "contentDigest": "f10416151a61e69cd7e3afbecf53b2e2",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -586,7 +503,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "00be06176d0f07b0f65a49f6255f6281"
+    "PLUGINS_HASH": "e9df3275dbce4fc0dd5ec3832a8fc654"
   },
   "componentDataDependencies": {
     "nodes": {

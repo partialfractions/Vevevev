@@ -18,11 +18,12 @@
     "gatsby-source-filesystem": "^1.5.39",
     "gatsby-transformer-remark": "^1.7.44",
     "gatsby-transformer-sharp": "^2.1.10",
-    "glamorous": "^4.13.1",
     "react-fade": "^1.1.1",
     "react-helmet": "^5.2.0",
     "react-image": "^1.5.1",
-    "react-typing-animation": "^1.4.0",
+    "react-typing-animation": "^1.6.2",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^0.84.0",
     "typography": "^0.16.18",
     "typography-theme-wordpress-2011": "^0.16.18"
   }
