@@ -1,7 +1,4 @@
 var plugins = [{
-      plugin: require('/Users/vevinatrinh/Documents/repos/partialfractions.github.io/node_modules/gatsby-plugin-glamor/gatsby-browser'),
-      options: {"plugins":[]},
-    },{
       plugin: require('/Users/vevinatrinh/Documents/repos/partialfractions.github.io/node_modules/gatsby-plugin-typography/gatsby-browser'),
       options: {"plugins":[],"pathToConfigModule":"src/utils/typography"},
     }]

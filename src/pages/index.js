@@ -15,7 +15,7 @@ import { rhythm } from "../utils/typography";
 
 export default () => {
   return (
-    <div style={{height: '100%', width: '100%'}}>
+    <div style={{height: '100%'}}>
       <Helmet>
            <meta charSet="utf-8" />
            <title>Vevina</title>
@@ -25,24 +25,24 @@ export default () => {
        <Fade>
         {/*opening*/}
         <div style={{height: '100vh', width: '100vw'}}>
-           <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', width: '90vw', height:'88vh', margin:'0 auto 0vh auto', position: 'relative', paddingTop: '9vh'}}>
+           <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', width: '90vw', height:'88vh', margin:'0 auto 0vh auto', paddingTop: '9vh'}}>
             <img src={MainImg} style={{ margin:'0 auto', maxHeight: '75vh', maxWidth: '80%'}} />
            </div>
            <FrontTyping/>
          </div>
          {/*work*/}
-         <div style={{position: 'relative', marginLeft:'10%'}}>
-          <h1 style={{position: 'relative', fontSize: '500%', color: '#c26e60'}}>work</h1>
+         <div style={{marginLeft:'10%'}}>
+          <h1 style={{fontSize: '500%', color: '#c26e60'}}>work</h1>
          </div>
          <WorkCards/>
          {/*illustrations*/}
-         <div style={{position: 'relative', marginLeft:'10%'}}>
-          <h1 style={{position: 'relative', fontSize: '500%', color: '#c26e60'}}>latest illustrations</h1>
+         <div style={{marginLeft:'10%'}}>
+          <h1 style={{fontSize: '500%', color: '#c26e60'}}>latest illustrations</h1>
          </div>
          <Illustrations/>
          {/*contact*/}
-         <div style={{position: 'relative', marginLeft:'10%'}}>
-          <h1 style={{position: 'relative', fontSize: '500%', color: '#c26e60'}}>meet me!</h1>
+         <div style={{marginLeft:'10%'}}>
+          <h1 style={{fontSize: '500%', color: '#c26e60'}}>meet me!</h1>
          </div>
          <Contact/>
        </Fade>
