@@ -14,8 +14,14 @@
   },
   "dependencies": {
     "gatsby": "^2.13.31",
+    "gatsby-source-filesystem": "^2.1.5",
+    "gatsby-transformer-remark": "^2.6.8",
     "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "react-dom": "^16.8.6",
+    "react-id-swiper": "^2.3.2",
+    "react-modal": "^3.9.1",
+    "react-typing-animation": "^1.6.2",
+    "swiper": "^4.5.0"
   },
   "devDependencies": {
     "prettier": "^1.18.2"
