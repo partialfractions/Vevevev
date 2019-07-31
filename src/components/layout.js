@@ -1,72 +1,62 @@
-// import React from "react"
-// import { Link } from "gatsby"
-
-// const ListLink = props => (
-//   <li style={{ display: `inline-block`, marginRight: `1rem` }}>
-//     <Link to={props.to}>{props.children}</Link>
-//   </li>
-// )
-
-// export default ({ children }) => (
-//   <div style={{ margin: `3rem auto`, maxWidth: 650, padding: `0 1rem` }}>
-//     <header style={{ marginBottom: `1.5rem`, width: '100%' }}>
-//       <Link to="/" style={{ textShadow: `none`, backgroundImage: `none` }}>
-//         <h3 style={{ display: `inline` }}>MySweetSite</h3>
-//       </Link>
-//       <ul style={{ listStyle: `none`, float: `right` }}>
-//         <ListLink to="/">Home</ListLink>
-//         <ListLink to="/about/">About</ListLink>
-//         <ListLink to="/contact/">Contact</ListLink>
-//       </ul>
-//     </header>
-
-//     {children}
-//   </div>
-// )
-
 import React from "react";
 import { Link } from "gatsby";
 import headerStyles from "./header.module.css";
-// import { useStaticQuery, Link, graphql } from "gatsby"
+import Footer from "./footer";
 
-export default ({ children }) => {
-  // const data = useStaticQuery(
-  //     graphql`
-  //       query {
-  //         site {
-  //           siteMetadata {
-  //             title
-  //           }
-  //         }
-  //       }
-  //     `
-  //   )
-  return (
-    <div style={{ margin: 0, maxWidth: "80vw", padding: 50, paddingTop: 15 }}>
-      <div>
-        <Link to={`/`}>
-          <h3
-            className={headerStyles.header}
-            style={{ color: "black", display: "inline-block" }}
-          >
-            VT
-          </h3>
-        </Link>
-        <Link
-          to={`/about/`}
-          style={{ color: "black", textDecoration: "none", marginLeft: 20 }}
+export default class Layout extends React.Component {
+  render() {
+    return (
+      <div
+        style={{
+          position: "relative",
+          padding: 100,
+          paddingTop: 50
+        }}
+      >
+        <div style={{ marginBottom: 50 }}>
+          <Link to={`/`}>
+            <h3
+              className={headerStyles.header}
+              style={{ color: "black", display: "inline-block" }}
+            >
+              VT
+            </h3>
+          </Link>
+          <div style={{ position: "absolute", right: 100, top: 50 }}>
+            <Link
+              to={`/`}
+              style={{ color: "black", textDecoration: "none", marginLeft: 20 }}
+            >
+              WORK
+            </Link>
+            <Link
+              to={`/about/`}
+              style={{ color: "black", textDecoration: "none", marginLeft: 20 }}
+            >
+              INFO
+            </Link>
+            <Link
+              to={`/about/`}
+              style={{ color: "black", textDecoration: "none", marginLeft: 20 }}
+            >
+              RESUME
+            </Link>
+          </div>
+        </div>
+        {this.props.children}
+        <div
+          style={{
+            width: "100%",
+            bottom: 0,
+            position: "absolute"
+          }}
         >
-          INFO
-        </Link>
-        <Link
-          to={`/about/`}
-          style={{ color: "black", textDecoration: "none", marginLeft: 20 }}
-        >
-          RESUME
-        </Link>
+          <div style={{ margin: 50, right: 150, position: "absolute" }}>
+            <h4 style={{ textAlign: "right" }}>Made with ❤️and ☕.</h4>
+            <Footer />
+          </div>
+        </div>
       </div>
-      {children}
-      <div style={{ bottom: 0, position: "relative" }}>hi</div>
-    </div>
-  );
-};
+    );
+  }
+}

@@ -1,12 +1,11 @@
 import React from "react";
 import { Link, graphql } from "gatsby";
 import Layout from "../components/layout";
-import Swiper from "react-id-swiper";
 import Typing from "react-typing-animation";
 import Carousel from "../components/carousel";
 
-export default ({ data }) => {
-  const frontTyping = () => (
+export default class App extends React.Component {
+  frontTyping = () => (
     <div
       style={{
         fontSize: "200%"
@@ -40,7 +39,7 @@ export default ({ data }) => {
     </div>
   );
 
-  const illustrationItems = data.allMarkdownRemark.edges
+  illustrationItems = this.props.data.allMarkdownRemark.edges
     .filter(({ node }) => node.frontmatter.category === "illustration")
     .map(({ node }) => {
       return (
@@ -49,13 +48,13 @@ export default ({ data }) => {
             to={node.fields.slug}
             style={{ color: "black", textDecoration: "none" }}
           >
-            <img src={node.frontmatter.image} alt="" height={500} />
+            <img src={node.frontmatter.image} alt="" height={400} />
           </Link>
         </div>
       );
     });
 
-  const projectItems = data.allMarkdownRemark.edges
+  projectItems = this.props.data.allMarkdownRemark.edges
     .filter(({ node }) => node.frontmatter.category === "project")
     .map(({ node }) => {
       return (
@@ -64,28 +63,34 @@ export default ({ data }) => {
             to={node.fields.slug}
             style={{ color: "black", textDecoration: "none" }}
           >
-            <img src={node.frontmatter.image} alt="" height={500} />
+            <img src={node.frontmatter.image} alt="" height={400} />
           </Link>
         </div>
       );
     });
-
-  return (
-    <Layout>
-      <div>
-        {frontTyping()}
-        <div style={{ marginTop: 80, marginBottom: 120 }}>
-          <h3>PROJECTS</h3>
-          <Carousel items={projectItems} />
+  render() {
+    return (
+      <Layout>
+        {this.frontTyping()}
+        <div
+          style={{
+            width: "100%",
+            alignItems: "center"
+          }}
+        >
+          <div style={{ marginTop: 80, marginBottom: 120 }}>
+            <h3>PROJECTS</h3>
+            <Carousel items={this.projectItems} />
+          </div>
+          <div style={{ marginTop: 120, marginBottom: 30 }}>
+            <h3>ILLUSTRATIONS</h3>
+            <Carousel items={this.illustrationItems} />
+          </div>
         </div>
-        <div style={{ marginTop: 120, marginBottom: 30 }}>
-          <h3>ILLUSTRATIONS</h3>
-          <Carousel items={illustrationItems} />
-        </div>
-      </div>
-    </Layout>
-  );
-};
+      </Layout>
+    );
+  }
+}
 
 export const query = graphql`
   query {
@@ -107,3 +112,5 @@ export const query = graphql`
     }
   }
 `;
+
+// ReactDOM.render(<App />, document.getElementById("root"));

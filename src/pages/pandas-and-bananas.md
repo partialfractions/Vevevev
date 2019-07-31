@@ -1,5 +1,5 @@
 ---
-title: "Pandas and Bananas"
+title: "PANDAS AND BANANAS"
 category: "project"
 image: "https://mir-s3-cdn-cf.behance.net/project_modules/fs/21184475107907.5c4374431643d.jpg"
 ---
@@ -19,6 +19,6 @@ seem to really enjoy bananas!
 <br/>
 <br/>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/4SZl1r2O_bY" frameborder="0" allowfullscreen></iframe>
-<img width="400" height="400" src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/21184475107907.5c4374431643d.jpg"/>
-<img width="400" height="400" src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/21184475107907.5c4374431643d.jpg"/>
+<iframe width="100%" src="https://www.youtube.com/embed/4SZl1r2O_bY" frameborder="0" allowfullscreen></iframe>
+<img width="80%" height="80%" src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/21184475107907.5c4374431643d.jpg"/>
+<img width="80%" height="400" src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/21184475107907.5c4374431643d.jpg"/>
