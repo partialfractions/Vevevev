@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "gatsby";
 import headerStyles from "./header.module.css";
-import Footer from "./footer";
 
 export default class Layout extends React.Component {
   render() {
@@ -13,7 +12,7 @@ export default class Layout extends React.Component {
           paddingTop: 50
         }}
       >
-        <div style={{ marginBottom: 50 }}>
+        <div style={{ marginBottom: 100 }}>
           <Link to={`/`}>
             <h3
               className={headerStyles.header}
@@ -44,18 +43,6 @@ export default class Layout extends React.Component {
           </div>
         </div>
         {this.props.children}
-        <div
-          style={{
-            width: "100%",
-            bottom: 0,
-            position: "absolute"
-          }}
-        >
-          <div style={{ margin: 50, right: 150, position: "absolute" }}>
-            <h4 style={{ textAlign: "right" }}>Made with ❤️and ☕.</h4>
-            <Footer />
-          </div>
-        </div>
       </div>
     );
   }

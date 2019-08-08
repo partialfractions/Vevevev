@@ -1,6 +1,7 @@
 import React from "react";
 import { Link, graphql } from "gatsby";
 import Layout from "../components/layout";
+import Footer from "../components/footer";
 import Typing from "react-typing-animation";
 import Carousel from "../components/carousel";
 
@@ -86,6 +87,10 @@ export default class App extends React.Component {
             <h3>ILLUSTRATIONS</h3>
             <Carousel items={this.illustrationItems} />
           </div>
+        </div>
+        <div style={{ margin: 50, right: 50, position: "absolute" }}>
+          <h4 style={{ textAlign: "right" }}>Connect with me!</h4>
+          <Footer />
         </div>
       </Layout>
     );
