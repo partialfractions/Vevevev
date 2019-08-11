@@ -69,7 +69,7 @@ export default class App extends React.Component {
         {this.frontTyping()}
         <p style={{ width: "50%", lineHeight: 2 }}>
           Computer science student at the University of Waterloo. Client-side
-          software engineering intern at Zynga. Graphic designer at Hack the
+          software engineering intern at Zynga. Visual designer at Hack the
           North, Canada's largest hackathon.
         </p>
         <div>
