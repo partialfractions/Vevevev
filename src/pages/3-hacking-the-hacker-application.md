@@ -1,5 +1,5 @@
 ---
-title: "HACKING THE HACKER APPLICATION"
+title: "hacking the hacker application"
 category: "illustration"
 image: "https://mir-cdn.behance.net/v1/rendition/project_modules/2800_opt_1/22caac83635971.5d426885b74bb.jpg"
 link: "https://www.behance.net/gallery/83635971/Hacking-the-Hackathon-Application"

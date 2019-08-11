@@ -1,7 +1,7 @@
 ---
-title: "HACKIOCA"
+title: "hackioca"
 category: "project"
-image: "https://mir-cdn.behance.net/v1/rendition/project_modules/1400_opt_1/10975c83831733.5d4903e63aee7.png"
+image: "https://mir-cdn.behance.net/v1/rendition/project_modules/2800_opt_1/e883f783831733.5d4cd90d5e3a0.jpg"
 link: "https://www.behance.net/gallery/83831733/Cooking-Up-a-Boba-Themed-Hackathon"
 ---
 

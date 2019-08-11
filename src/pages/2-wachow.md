@@ -1,5 +1,5 @@
 ---
-title: "WACHOW!"
+title: "wachow!"
 category: "project"
 image: "https://mir-cdn.behance.net/v1/rendition/project_modules/fs/5c2af583930533.5d4b9f2693f58.jpg"
 link: "https://www.behance.net/gallery/83930533/WACHOW"
@@ -11,11 +11,15 @@ link: "https://www.behance.net/gallery/83930533/WACHOW"
 <br/>
 Top word games on the market are casual solo games, such as Wordscapes and Codycross, and for good reason. They're highly addictive and always have something ready for users.
 <br/>
+<br/>
 Wachow is a casual word game loosely based off of the classic mobile game, Fruit Ninja. Scrambled Scrabble-like tiles are thrown up onto the screen, and players have a few seconds to identify a valid Scrabble word and swipe the tiles that spell out that work in one motion. In a game, there are several rounds(throws).
+<br/>
 <br/>
 Unlike Fruit Ninja, the tiles are not falling while the time is ticking, but they're animated to look like they've been thrown up and frozen in time in their position until the given seconds are up. This puts emphasis on training users in decision making and word identification given a set of letters by reducing a potential pain point of swiping the wrong letter while the tiles are constantly moving.
 <br/>
+<br/>
 Points are awarded each round based on the points on each tile that is used in a valid word that the user identifies. This provides a measurement of progress and achievement for players.
+<br/>
 <br/>
 Wachow not only provides users a sense of accomplishment through learning and improvement, but it's scalable in terms of levels and difficulty, always being able to provide a game for users.
 <br/>
@@ -35,6 +39,7 @@ During a game, the word being built is displayed on the screen to help the user 
 <br/>
 <br/>
 When ideating Wachow, there was uncertainty of how the game would be surfaced. It could have been it's own casual game, but it was decided to be designed as a mini training game in Words with Friends.
+<br/>
 <br/>
 A pain point in Words with Friends is downtime between games and solo challenges. Providing a casual word game like Wachow as a mini game increases engagement by having something for users to play in between games in addition to training users to identify words from scrambled letters, an essential skill in Words with Friends.
 <br/>

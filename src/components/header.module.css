@@ -1,6 +1,6 @@
 @import "https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap";
 .header {
-  font-family: "Permanent Marker", cursive;
+  font-family: "Permanent Marker", sans-serif;
   color: "black";
   display: "inline-block";
 }

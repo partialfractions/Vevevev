@@ -1,5 +1,5 @@
 ---
-title: "Drop-down questions in Hack the North FAQ"
+title: "drop-down questions in hack the north faq"
 category: "project"
 image: "https://mir-cdn.behance.net/v1/rendition/project_modules/2800_opt_1/7a6df683933479.5d4bacd0782c3.jpg"
 link: "https://www.behance.net/gallery/83933479/Adding-drop-down-questions-to-the-Hack-the-North-FAQ"

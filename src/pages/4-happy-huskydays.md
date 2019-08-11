@@ -1,5 +1,5 @@
 ---
-title: "HAPPY HUSKYDAYS"
+title: "happy huskydays"
 category: "illustration"
 image: "https://mir-s3-cdn-cf.behance.net/project_modules/fs/12ee0a75108027.5c437538330c5.jpg"
 link: "https://www.behance.net/gallery/75108027/Happy-Huskydays"

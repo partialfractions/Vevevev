@@ -11,22 +11,11 @@ export default class Footer extends React.Component {
     return (
       <div>
         <Button
-          onClick={() =>
-            this.openInNewTab("https://www.behance.net/vevinatrin368b")
-          }
+          onClick={() => this.openInNewTab("https://www.behance.net/vetrinh")}
           style={{ margin: 5 }}
           circular
-          color="black"
+          color="white"
           icon="behance"
-        />
-        <Button
-          onClick={() =>
-            this.openInNewTab("https://www.instagram.com/trinhvev/")
-          }
-          style={{ margin: 5 }}
-          circular
-          color="black"
-          icon="instagram"
         />
         <Button
           onClick={() =>
@@ -34,7 +23,7 @@ export default class Footer extends React.Component {
           }
           style={{ margin: 5 }}
           circular
-          color="black"
+          color="white"
           icon="linkedin"
         />
         <Button
@@ -43,14 +32,14 @@ export default class Footer extends React.Component {
           }
           style={{ margin: 5 }}
           circular
-          color="black"
+          color="white"
           icon="github"
         />
         <Button
           onClick={() => this.openInNewTab("mailto:vevinatrinh@gmail.com")}
           style={{ margin: 5 }}
           circular
-          color="black"
+          color="white"
           icon="mail outline"
         />
       </div>

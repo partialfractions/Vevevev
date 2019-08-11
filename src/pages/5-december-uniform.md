@@ -1,5 +1,5 @@
 ---
-title: "DECEMBER UNIFORM"
+title: "december uniform"
 category: "illustration"
 image: "https://mir-s3-cdn-cf.behance.net/project_modules/fs/21184475107907.5c4374431643d.jpg"
 link: "https://www.behance.net/gallery/75107907/December-Uniform"
