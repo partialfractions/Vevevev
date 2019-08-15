@@ -75,7 +75,7 @@ export default class App extends React.Component {
         <div>
           <i
             style={{ display: "inline-block", marginRight: 12, opacity: 0.6 }}
-            class="far fa-hand-paper"
+            class="far fa-paper-plane"
           ></i>
           <a
             href={"mailto:vevinatrinh@gmail.com"}
