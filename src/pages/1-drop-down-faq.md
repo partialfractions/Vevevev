@@ -16,6 +16,7 @@ Traditionally, the FAQ section on the Hack the North website displayed all the q
 
 The benefit to this is that site visitors can have all of the answers to the FAQ questions in an instant. However, all the text can be overwhelming and lead to lots of scrolling, especially on mobile devices.
 <br/>
+<br/>
 I was able to add a drop-down for every question in the FAQ section for the 2019 site. This not only decluttered the section, but presented the questions to users in a way that allowed them to select the ones that they wanted the answer to. Having the first two answers open as well as arrow buttons that indicate the direction the answer will animate on click signal to the user that the each questions is a drop-down.
 <br/>
 <br/>
@@ -30,4 +31,4 @@ Adding the drop-down questions has an additional benefit: clicks are tracked on 
 <br/>
 <img width="100%" height="100%" src="https://mir-cdn.behance.net/v1/rendition/project_modules/fs/f6d77083933479.5d4bb14c3e9b4.jpg"/>
 <br/>
-Heat map of FAQ shortly after the 2019 site launched
+Heat map of the FAQ section, taken by the design team lead Stanley, shortly after the 2019 site launched

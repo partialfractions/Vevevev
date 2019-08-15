@@ -1,6 +1,4 @@
 import React from "react";
-import { Button } from "semantic-ui-react";
-import "semantic-ui-css/semantic.min.css";
 
 export default class Footer extends React.Component {
   openInNewTab(url) {
@@ -10,38 +8,30 @@ export default class Footer extends React.Component {
   render() {
     return (
       <div>
-        <Button
-          onClick={() => this.openInNewTab("https://www.behance.net/vetrinh")}
-          style={{ margin: 5 }}
-          circular
-          color="white"
-          icon="behance"
-        />
-        <Button
+        <i
+          onClick={() => this.openInNewTab("mailto:vevinatrinh@gmail.com")}
+          style={{ margin: 5, opacity: 0.8 }}
+          class="fas fa-envelope-square fa-2x"
+        ></i>
+        <i
           onClick={() =>
             this.openInNewTab("https://www.linkedin.com/in/trinhvev/")
           }
-          style={{ margin: 5 }}
-          circular
-          color="white"
-          icon="linkedin"
-        />
-        <Button
+          style={{ margin: 5, opacity: 0.8 }}
+          class="fab fa-linkedin fa-2x"
+        ></i>
+        <i
           onClick={() =>
             this.openInNewTab("https://github.com/partialfractions")
           }
-          style={{ margin: 5 }}
-          circular
-          color="white"
-          icon="github"
-        />
-        <Button
-          onClick={() => this.openInNewTab("mailto:vevinatrinh@gmail.com")}
-          style={{ margin: 5 }}
-          circular
-          color="white"
-          icon="mail outline"
-        />
+          style={{ margin: 5, opacity: 0.8 }}
+          class="fab fa-github-square fa-2x"
+        ></i>
+        <i
+          onClick={() => this.openInNewTab("https://www.behance.net/vetrinh")}
+          style={{ margin: 5, opacity: 0.8 }}
+          class="fab fa-behance-square fa-2x"
+        ></i>
       </div>
     );
   }

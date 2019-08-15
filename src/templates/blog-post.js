@@ -30,40 +30,31 @@ export default ({ data }) => {
             href={post.frontmatter.link}
             target="_blank"
             rel="noopener noreferrer"
-            style={{ color: "#414141" }}
+            style={{ color: "#414141", textDecoration: "none" }}
           >
             View this on Behance →
           </a>
         </div>
-        <div dangerouslySetInnerHTML={{ __html: post.html }} />
+        <div
+          style={{ lineHeight: 2 }}
+          dangerouslySetInnerHTML={{ __html: post.html }}
+        />
       </div>
+
       <div
         style={{
-          width: "100%",
-          bottom: 0,
-          position: "absolute"
+          width: "100vw",
+          marginTop: 50,
+          marginBottom: 20,
+          textAlign: "right",
+          right: 0,
+          position: "absolute",
+          marginRight: "10%",
+          paddingBottom: 50
         }}
       >
-        <div
-          style={{
-            width: "100vw",
-            position: "absolute",
-            marginTop: 50,
-            marginBottom: 20
-          }}
-        >
-          <div
-            style={{
-              textAlign: "right",
-              right: 200,
-              position: "absolute",
-              paddingBottom: 50
-            }}
-          >
-            <Footer />
-            <p style={{ marginTop: 10 }}>Designed and developed with ❤️</p>
-          </div>
-        </div>
+        <Footer />
+        <p style={{ marginTop: 10 }}>Designed and developed with ❤️</p>
       </div>
     </Layout>
   );

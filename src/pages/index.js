@@ -6,7 +6,7 @@ import Typing from "react-typing-animation";
 import Carousel from "../components/carousel";
 import Resume from "../assets/resume.pdf";
 import { Icon } from "semantic-ui-react";
-import "semantic-ui-css/semantic.min.css";
+// import "semantic-ui-css/semantic.min.css";
 
 export default class App extends React.Component {
   frontTyping = () => (
@@ -14,7 +14,7 @@ export default class App extends React.Component {
       style={{
         fontSize: "200%",
         fontWeight: "lighter",
-        marginTop: 150,
+        marginTop: "15%",
         marginBottom: 50
       }}
     >
@@ -67,18 +67,21 @@ export default class App extends React.Component {
     return (
       <Layout>
         {this.frontTyping()}
-        <p style={{ width: "50%", lineHeight: 2 }}>
+        <p style={{ width: "67%", lineHeight: 2 }}>
           Computer science student at the University of Waterloo. Client-side
           software engineering intern at Zynga. Visual designer at Hack the
           North, Canada's largest hackathon.
         </p>
         <div>
-          <Icon name="mail outline" />
+          <i
+            style={{ display: "inline-block", marginRight: 12, opacity: 0.6 }}
+            class="far fa-hand-paper"
+          ></i>
           <a
             href={"mailto:vevinatrinh@gmail.com"}
             style={{
-              fontWeight: "lighter",
               color: "#414141",
+              textDecoration: "none",
               backgroundColor: "#fff2cc",
               lineHeight: 2
             }}
@@ -87,7 +90,10 @@ export default class App extends React.Component {
           </a>
         </div>
         <div>
-          <Icon name="file outline" />
+          <i
+            style={{ display: "inline-block", marginRight: 12, opacity: 0.6 }}
+            class="far fa-file"
+          ></i>
           <a
             href={Resume}
             style={{
@@ -121,22 +127,16 @@ export default class App extends React.Component {
         <div
           style={{
             width: "100vw",
+            marginBottom: 20,
+            textAlign: "right",
+            right: 0,
             position: "absolute",
-            marginTop: 50,
-            marginBottom: 20
+            marginRight: "10%",
+            paddingBottom: 50
           }}
         >
-          <div
-            style={{
-              textAlign: "right",
-              right: 200,
-              position: "absolute",
-              paddingBottom: 50
-            }}
-          >
-            <Footer />
-            <p style={{ marginTop: 10 }}>Designed and developed with ❤️</p>
-          </div>
+          <Footer />
+          <p style={{ marginTop: 10 }}>Designed and developed with ❤️</p>
         </div>
       </Layout>
     );
