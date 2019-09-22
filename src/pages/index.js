@@ -5,8 +5,6 @@ import Footer from "../components/footer";
 import Typing from "react-typing-animation";
 import Carousel from "../components/carousel";
 import Resume from "../assets/resume.pdf";
-import { Icon } from "semantic-ui-react";
-// import "semantic-ui-css/semantic.min.css";
 
 export default class App extends React.Component {
   frontTyping = () => (
