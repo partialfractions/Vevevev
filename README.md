@@ -8,10 +8,8 @@ It was developed with React and Javascript.
 
 To edit and kick off this project on your local machine:
 
-    ```
     cd partialfractions.github.io
     gatsby develop
-    ```
     
 The project will run on `http://localhost:8000`!
 
