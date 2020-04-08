@@ -2,42 +2,9 @@ import React from "react";
 import { Link, graphql } from "gatsby";
 import Layout from "../components/layout";
 import Footer from "../components/footer";
-import Typing from "react-typing-animation";
-import Carousel from "../components/carousel";
 import Resume from "../assets/resume.pdf";
 
 export default class App extends React.Component {
-  frontTyping = () => (
-    <div
-      style={{
-        fontSize: "200%",
-        fontWeight: "lighter",
-        marginTop: "15%",
-        marginBottom: 50
-      }}
-    >
-      <Typing loop={true}>
-        <div>
-          <span>vevina trinh</span>
-          <Typing.Delay ms={1000} />
-          <Typing.Backspace count={13} />
-          <span>coffee lover</span>
-          <Typing.Delay ms={1000} />
-          <Typing.Backspace count={13} />
-          <span>plant parent</span>
-          <Typing.Delay ms={1000} />
-          <Typing.Backspace count={13} />
-          <span>rock climber</span>
-          <Typing.Delay ms={1000} />
-          <Typing.Backspace count={13} />
-          <span>friend</span>
-          <Typing.Delay ms={1000} />
-          <Typing.Backspace count={7} />
-        </div>
-      </Typing>
-    </div>
-  );
-
   illustrationItems = this.props.data.allMarkdownRemark.edges
     .filter(({ node }) => node.frontmatter.category === "illustration")
     .map(({ node }) => {
@@ -64,30 +31,37 @@ export default class App extends React.Component {
   render() {
     return (
       <Layout>
-        {this.frontTyping()}
-        <p style={{ width: "67%", lineHeight: 2 }}>
-          Computer science student at the University of Waterloo. Client-side
-          software engineering intern at Zynga. Visual designer at Hack the
-          North, Canada's largest hackathon.
-        </p>
+        <div
+          style={{
+            fontSize: "200%",
+            fontWeight: "lighter",
+            marginTop: "15%",
+            marginBottom: 20
+          }}
+        >
+          be back soon
+        </div>
         <div>
-          <i
-            style={{ display: "inline-block", marginRight: 12, opacity: 0.6 }}
+          {false && (
+            <i
+            style={{ display: "inline-block", marginRight: 12 }}
             class="far fa-paper-plane"
-          ></i>
+            ></i>
+          )}
+          in the meantime, you can reach me at
           <a
             href={"mailto:vevinatrinh@gmail.com"}
             style={{
-              color: "#414141",
-              textDecoration: "none",
-              backgroundColor: "#fff2cc",
-              lineHeight: 2
+              color: "#332F21",
+              lineHeight: 2,
+              marginLeft: 6
             }}
           >
-            vevinatrinh@gmail.com
+             vevinatrinh@gmail.com
           </a>
         </div>
-        <div>
+        {false && (
+          <div>
           <i
             style={{ display: "inline-block", marginRight: 12, opacity: 0.6 }}
             class="far fa-file"
@@ -95,9 +69,8 @@ export default class App extends React.Component {
           <a
             href={Resume}
             style={{
-              color: "#414141",
+              color: "#332F21",
               textDecoration: "none",
-              backgroundColor: "#fff2cc",
               lineHeight: 2
             }}
             target="_blank"
@@ -106,23 +79,9 @@ export default class App extends React.Component {
             resume
           </a>
         </div>
-        <div
-          style={{
-            width: "100%",
-            alignItems: "center"
-          }}
-        >
-          <div style={{ marginTop: 80, marginBottom: 120 }}>
-            <Carousel items={this.projectItems} />
-            <h4 style={{ fontWeight: "lighter" }}>PROJECTS</h4>
-          </div>
-          <div style={{ marginTop: 120, marginBottom: 30 }}>
-            <Carousel items={this.illustrationItems} />
-            <h4 style={{ fontWeight: "lighter" }}>ILLUSTRATIONS</h4>
-          </div>
-        </div>
-
-        <div
+        )}
+        {false && (
+          <div
           style={{
             width: "100vw",
             marginBottom: 20,
@@ -136,6 +95,7 @@ export default class App extends React.Component {
           <Footer />
           <p style={{ marginTop: 10 }}>Designed and developed with ❤️</p>
         </div>
+        )}
       </Layout>
     );
   }
