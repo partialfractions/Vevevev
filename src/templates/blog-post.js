@@ -15,7 +15,7 @@ export default ({ data }) => {
         <h1
           style={{
             color: "#414141",
-            display: "inline-block"
+            display: "inline-block",
           }}
         >
           ←
@@ -39,22 +39,6 @@ export default ({ data }) => {
           style={{ lineHeight: 2 }}
           dangerouslySetInnerHTML={{ __html: post.html }}
         />
-      </div>
-
-      <div
-        style={{
-          width: "100vw",
-          marginTop: 50,
-          marginBottom: 20,
-          textAlign: "right",
-          right: 0,
-          position: "absolute",
-          marginRight: "10%",
-          paddingBottom: 50
-        }}
-      >
-        <Footer />
-        <p style={{ marginTop: 10 }}>Designed and developed with ❤️</p>
       </div>
     </Layout>
   );
